@@ -13,10 +13,10 @@ double_char('AAbb') → 'AAAAbbbb'
 double_char('Hi-There') → 'HHii--TThheerree'
 '''
 def double_char(str):
-  result = ""
-  for c in str:
-    result += c * 2
-  return result
+    result = ""
+    for c in str:
+        result += c * 2
+    return result
 
 ''' https://codingbat.com/prob/p167246
 Return the number of times that the string "hi" appears anywhere in the given
